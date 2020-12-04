@@ -1,0 +1,233 @@
+<app-sidebar> 
+    <div class="card mt-5 ml-3 mr-3 col-xl interior topleft">
+        <h5 class="card-header">Registros de Usuarios</h5>
+        <div class="card-body">
+            <div class="container col-xl">
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">ID de Usuario:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="idusuario" placeholder="" value="" required>
+                                <div class="col-md-3 mb-3"></div>
+                                <button type="button" class="btn btn-dark mr-2" onclick="this.blur();">Buscar ID Usuario</button> 
+                            </div>
+                        </div>
+                    </div>              
+                </div>
+                <h6 class="mb-4">Datos Usuario:</h6>
+                <div class="card-body">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="container col-xl">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3 ">
+                                        <label for="firstName">Nuevo ID Usuario:</label>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" id="idUser" placeholder="" value="" required>
+                                        <div class="invalid-feedback">
+                                            Se requiere un ID válido.
+                                        </div>
+                                        <div class="col-md-3 mb-3"></div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="container col-xl">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <label for="firstName">Departamento:</label>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" id="departamento" placeholder="" value="" required>
+                                        <div class="col-md-3 mb-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+            
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="container col-xl">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                    <label for="firstName">RUT de usuario:</label>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" id="RUTUser" placeholder="" value="" required>
+                                        <div class="col-md-3 mb-3"></div>      
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="container col-xl">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <label for="firstName">Correo Contacto:</label>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <select class="form-control">
+                                            <option>-Seleccionar-</option>
+                                            <option>Bearings.cl</option>
+                                            <option>soporte.bearing.cl</option>
+                                        </select>
+                                        <div class="col-md-3 mb-3"></div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="container col-xl">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                    <label for="firstName">Nombres Usuario:</label>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" id="nombreUser" placeholder="" value="" required>
+                                        <div class="col-md-3 mb-3"></div>      
+                                    </div>                        
+                                </div>
+                            </div> 
+                            <div class="container col-xl">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <label for="firstName">Fecha de Nacimiento:</label>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="date" class="form-control" id="fechanacimiento" placeholder="" value="" requiredvalue="01-01-1999">
+                                        <div class="col-md-3 mb-3"></div>      
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="container col-xl">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                    <label for="firstName">Apellidos Usuario:</label>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                        <div class="col-md-3 mb-3"></div>      
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="container col-xl">
+                                <div class="row">
+                                    <div class="col-md-3 mb-3">
+                                        <label for="firstName">Tipo de Usuario:</label>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <select class="form-control">
+                                            <option>-Seleccionar-</option>
+                                            <option>Soporte</option>
+                                            <option>Administrativo</option>                                
+                                            <option>Jefe Departamento</option>                                
+                                            <option>Vendedores</option>
+                                        </select>
+                                        <div class="col-md-3 mb-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div> 
+                    
+            <button type="button" class="btn btn-dark mr-2" onclick="this.blur();">Guardar Cambios</button>
+            <button type="button" class="btn btn-dark" onclick="this.blur();">Deshacer Datos Ingresados</button>
+        </div>
+        <hr/>
+        <h6 class="mb-4">Tabla de Usuarios:</h6>
+        <div class="card border-secondary mb-3 mr-2 ml-2">
+            <div class="tableFixHead table-responsive">
+                <table class="table table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th>Nombre Usuario</th>
+                            <th>RUT Usuario</th>
+                            <th>ID Usuario</th>
+                            <th>Fecha Registro</th>
+                            <th>Correo Contacto</th>
+                            <th>Departamento</th>                        
+                            <th>Tipo de Usuario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <hr/>
+    </div>
+</app-sidebar> 

@@ -1,0 +1,86 @@
+<app-sidebar> 
+    <div class="card mt-5 ml-3 mr-3 col-xl interior">
+        <h5 class="card-header">Modificar mantención</h5>
+        <div class="card-body">
+            <div class="container col-xl">
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">ID:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="ID-Licencias" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Se requiere un nombre válido.
+                                </div>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Técnico:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="Serial" placeholder="" value="" required>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="container col-xl">
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Equipo:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="col-md-3 mb-3"></div>  
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Fecha:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="col-md-3 mb-3"></div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="container col-xl">
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Tipo de mantención:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div data-type="radio">
+                                    <label><input type="radio" name="tipomantencion" value="1">Preventiva</label>
+                                    <div></div>
+                                    <label><input type="radio" name="tipomantencion" value="2">Correctiva</label>
+                                </div>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <label for="firstName ">Descripción:</label>
+            <textarea class="form-control mb-3" id="descripion" rows="3"></textarea>
+            <button type="button" class="btn btn-dark " onclick="this.blur();">Guardar</button>   
+        </div>
+    </div>
+</app-sidebar> 
+    

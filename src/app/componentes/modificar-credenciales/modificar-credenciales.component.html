@@ -1,0 +1,178 @@
+<app-sidebar> 
+    <div class="card mt-5 ml-3 mr-3 col-xl interior topleft">
+        <h5 class="card-header">Administracion de Credenciales a Sistema</h5>
+        <div class="card-body">
+            <div class="container col-xl">
+                <h6 class="mb-4">Filtros de búsqueda:</h6>
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">ID Usuario:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="idusuario" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Se requiere un id válido.
+                                </div>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">RUT Usuario:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Se requiere un RUT válido.
+                                </div>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                                
+                </div>
+                <button type="button" class="btn btn-dark mr-2" onclick="this.blur();">Buscar Usuario</button>
+                <button type="button" class="btn btn-dark" onclick="this.blur();">Deshacer filtros</button>
+                <hr/>
+                <h6 class="mb-4">Cambio de Credencial:</h6>
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Tipo de Credencial:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <select class="form-control">
+                                    <option>-Seleccionar-</option>
+                                    <option>SIN Credencial</option>
+                                    <option>Soporte</option>
+                                    <option>Administrativo</option>                                
+                                    <option>Jefe Departamento</option>                                
+                                    <option>Vendedores</option>
+                                </select>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                
+                            </div>
+                        </div>
+                    </div>
+                                
+                </div>
+                <button type="button" class="btn btn-dark mr-2" onclick="this.blur();">Guardar Cambio</button>
+            </div>
+        </div>
+        <hr/>
+        <h6 class="mb-4">Tabla de Usuarios:</h6>
+        <div class="card border-secondary mb-3 mr-2 ml-2">
+            <div class="tableFixHead table-responsive">
+                <table class="table table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th>Nombre Usuario</th>
+                            <th>RUT Usuario</th>
+                            <th>ID Usuario</th>
+                            <th>Fecha Registro</th>
+                            <th>Correo Contacto</th>
+                            <th>Departamento</th>                        
+                            <th>Tipo de Credencial</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Gomez</td>
+                            <td>14444444-4</td>
+                            <td>718293</td>
+                            <td>27/Nov/2020</td>
+                            <td>m.gomez@bearings.cl</td>
+                            <td>Maquinaria Pesada</td>
+                            <td>Vendedor</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>    
+    </div>
+</app-sidebar> 

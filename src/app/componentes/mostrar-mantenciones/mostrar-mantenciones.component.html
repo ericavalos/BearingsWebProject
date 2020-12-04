@@ -1,0 +1,230 @@
+<app-sidebar>
+    <div class="card mt-5 ml-3 mr-3 col-xl interior topleft">
+        <h5 class="card-header">Mantenciones</h5>
+        <div class="card-body">
+            <div class="container col-xl">
+                <h6 class="mb-4">Filtros de búsqueda:</h6>
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Técnico:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="tftecnico" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Se requiere un nombre válido.
+                                </div>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Antes de:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="date" class="form-control" id="antesde" placeholder="" value="" requiredvalue="01-01-1999">
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="container col-xl">
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                            <label for="firstName">Tipo de mantención:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <select class="form-control">
+                                    <option>-Seleccionar-</option>
+                                    <option>Preventiva</option>
+                                    <option>Correctiva</option>
+                                </select>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Después de:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="date" class="form-control" id="despuesde" placeholder="" value="" requiredvalue="01-01-1999">
+                                <div class="col-md-3 mb-3"></div>      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <button type="button" class="btn btn-dark mr-2" onclick="this.blur();">Aplicar filtros</button>
+            <button type="button" class="btn btn-dark" onclick="this.blur();">Deshacer filtros</button>
+        </div>
+
+        <div class="card border-secondary mb-3 mr-2 ml-2">
+            <div class="tableFixHead table-responsive">
+                <table class="table table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th>ID Mantención</th>
+                            <th>Técnico</th>
+                            <th>Equipo</th>
+                            <th>Fecha</th>
+                            <th>Tipo de mantención</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                            <td>libero</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                            <td>libero</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                            <td>libero</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                            <td>libero</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                            <td>libero</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                            <td>libero</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                            <td>libero</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                            <td>libero</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                            <td>dolor</td>
+                            <td>sit</td>
+                            <td>libero</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card-body text-right">
+            <a href="#" class="btn btn-primary btn-dark" onclick="this.blur();">Generar PDF</a>
+        </div>       
+        <hr/>
+        <h5 class="card-header mt-2">Mantenciones Futuras</h5>
+        <div class="card border-secondary mb-3 mr-2 ml-2">
+            <div class="tableFixHeadFutura table-responsive">
+                <table class="table table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th>ID Mantención futura</th>
+                            <th>Equipo</th>
+                            <th>Fecha</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                        </tr>
+                        <tr>
+                            <td>1,001</td>
+                            <td>Lorem</td>
+                            <td>ipsum</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        <div class="card-body text-right">
+            <a href="#" class="btn btn-primary btn-dark" onclick="this.blur();">Generar PDF</a>
+        </div>
+    </div>
+</app-sidebar>

@@ -1,0 +1,124 @@
+<app-sidebar>
+    <div class="card mt-5 ml-3 mr-3 col-xl interior topleft">
+        <h5 class="card-header">Admision de Nuevos Usuarios</h5>
+        <div class="card-body">
+            <div class="container col-xl">
+                <h6 class="mb-4">Datos de Ingreso:</h6>
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">ID Usuario:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="idUser" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    Se requiere un ID válido.
+                                </div>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Departamento:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="departamento" placeholder="" value="" required>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="container col-xl">
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                            <label for="firstName">RUT de usuario:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="RUTUser" placeholder="" value="" required>
+                                <div class="col-md-3 mb-3"></div>      
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Correo Contacto:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="RUTUser" placeholder="" value="" required>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="container col-xl">
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                            <label for="firstName">Nombre Usuario:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="nombreUser" placeholder="" value="" required>
+                                <div class="col-md-3 mb-3"></div>      
+                            </div>                        
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Fecha de Nacimiento:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="date" class="form-control" id="fechanacimiento" placeholder="" value="" requiredvalue="01-01-1999">
+                                <div class="col-md-3 mb-3"></div>      
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="container col-xl">
+                <div class="row">
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                            <label for="firstName">Apellidos Usuario:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="col-md-3 mb-3"></div>      
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="container col-xl">
+                        <div class="row">
+                            <div class="col-md-3 mb-3">
+                                <label for="firstName">Tipo de Usuario:</label>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <select class="form-control">
+                                    <option>-Seleccionar-</option>
+                                    <option>Soporte</option>
+                                    <option>Administrativo</option>                                
+                                    <option>Jefe Departamento</option>                                
+                                    <option>Vendedores</option>
+                                </select>
+                                <div class="col-md-3 mb-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="card-body text-right">
+            <a href="#" class="btn btn-primary btn-dark" onclick="this.blur();">Guardar Cambios</a>
+        </div>
+    </div>
+</app-sidebar>

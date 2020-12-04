@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    background-color: rgb(197, 197, 197);
+    font-size: 15px;
+}
+
+.ng-sidebar{
+    background: rgb(47, 49, 56);
+    width:15rem;
+    height:absolute;
+}
+
+.my-fixed-button {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+  }
+
+.pantallacompleta{
+    height: 87vh;
+}
+
+.interior{
+    width:98%;
+}
+
+.tamnav{
+    height: 55px;
+}
+
+.topleft{
+    position: absolute;
+    top: 30px;
+    width: absolute;
+}
+
+.tableFixHeadFutura{
+    overflow-y: auto;
+    height: 8rem;
+}
+
+.tableFixHeadFutura thead th {
+    position: sticky;
+    top: 0; 
+}
+
+.tableFixHead          { 
+    overflow-y: auto;
+    height: 16rem;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    top: 0; 
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

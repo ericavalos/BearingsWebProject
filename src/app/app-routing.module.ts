@@ -29,7 +29,7 @@ import { EliminarEquiposComponent } from './componentes/eliminar-equipos/elimina
 import { EliminarUsuariosComponent } from './componentes/eliminar-usuarios/eliminar-usuarios.component';
 import { SideBarMenuComponent } from './componentes/side-bar-menu/side-bar-menu.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
-import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { AppNavbarComponent } from './componentes/navbar/navbar.component';
 
 const routes: Routes = [
   { path: '' , component: InicioComponent },
@@ -38,7 +38,7 @@ const routes: Routes = [
   { path: 'agregar-equipos' , component: AgregarEquiposComponent },
   { path: 'agregar-mantenciones', component: AgregarMantencionesComponente },
   { path: 'agregar-usuarios', component: AgregarUsuariosComponent },
-  { path: 'app-navbar', component: NavbarComponent },
+  { path: 'app-navbar', component: AppNavbarComponent },
   { path: 'mostrar-licencias' , component: MostrarLicenciasComponent },  
   { path: 'mostrar-mantenciones' , component: MostrarMantencionesComponente },
   { path: 'mostrar-equipos' , component: MostrarEquiposComponent },  

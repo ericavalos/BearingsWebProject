@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { AppNavbarComponent } from './componentes/navbar/navbar.component';
 import { SideBarMenuComponent } from './componentes/side-bar-menu/side-bar-menu.component';
 
 import { AgregarLicenciasComponent } from './componentes/agregar-licencias/agregar-licencias.component';
@@ -34,7 +34,7 @@ import { ModificarLicenciasComponent } from './componentes/modificar-licencias/m
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
+    AppNavbarComponent,
     SideBarMenuComponent,
     MostrarLicenciasComponent,
     AgregarLicenciasComponent,
@@ -66,6 +66,6 @@ import { ModificarLicenciasComponent } from './componentes/modificar-licencias/m
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent,NavbarComponent,SideBarMenuComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

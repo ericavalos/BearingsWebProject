@@ -1,5 +1,5 @@
 <app-sidebar> 
-    <div class="card mt-5 ml-3 mr-3 col-xl interior topleft">
+    <div class="card mt-5 ml-3 mr-3 col-xl">
         <h5 class="card-header">Registros de Usuarios</h5>
         <div class="card-body">
             <div class="container col-xl">
@@ -10,7 +10,7 @@
                                 <label for="firstName">ID de Usuario:</label>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" id="idusuario" placeholder="" value="" required>
+                                <input class="form-control" type="number" value="" min="1" max="9999" id="example-number-input" pattern="\d+">
                                 <div class="col-md-3 mb-3"></div>
                                 <button type="button" class="btn btn-dark mr-2" onclick="this.blur();">Buscar ID Usuario</button> 
                             </div>
@@ -27,7 +27,7 @@
                                         <label for="firstName">Nuevo ID Usuario:</label>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="idUser" placeholder="" value="" required>
+                                        <input class="form-control" type="number" value="" min="1" max="9999" id="example-number-input" pattern="\d+">
                                         <div class="invalid-feedback">
                                             Se requiere un ID válido.
                                         </div>
@@ -41,7 +41,7 @@
                                         <label for="firstName">Departamento:</label>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="departamento" placeholder="" value="" required>
+                                        <input type="text" class="form-control" id="departamento" placeholder="" value="" required maxlength="30">
                                         <div class="col-md-3 mb-3"></div>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@
                                     <label for="firstName">RUT de usuario:</label>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="RUTUser" placeholder="" value="" required>
+                                        <input type="text" class="form-control" id="RUTUser" placeholder="" value="" required maxlength="12">
                                         <div class="col-md-3 mb-3"></div>      
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@
                                     <label for="firstName">Nombres Usuario:</label>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="nombreUser" placeholder="" value="" required>
+                                        <input type="text" class="form-control" id="nombreUser" placeholder="" value="" required maxlength="30">
                                         <div class="col-md-3 mb-3"></div>      
                                     </div>                        
                                 </div>
@@ -114,7 +114,7 @@
                                     <label for="firstName">Apellidos Usuario:</label>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required maxlength="30">
                                         <div class="col-md-3 mb-3"></div>      
                                     </div>
                                 </div>
@@ -145,7 +145,7 @@
             <button type="button" class="btn btn-dark" onclick="this.blur();">Deshacer Datos Ingresados</button>
         </div>
         <hr/>
-        <h6 class="mb-4">Tabla de Usuarios:</h6>
+        <h6 class="mb-4">Tabla de Usuario:</h6>
         <div class="card border-secondary mb-3 mr-2 ml-2">
             <div class="tableFixHead table-responsive">
                 <table class="table table-striped table-sm">
@@ -169,61 +169,7 @@
                             <td>m.gomez@bearings.cl</td>
                             <td>Maquinaria Pesada</td>
                             <td>Vendedor</td>
-                        </tr>
-                        <tr>
-                            <td>Mariano Gomez</td>
-                            <td>14444444-4</td>
-                            <td>718293</td>
-                            <td>27/Nov/2020</td>
-                            <td>m.gomez@bearings.cl</td>
-                            <td>Maquinaria Pesada</td>
-                            <td>Vendedor</td>
-                        </tr>
-                        <tr>
-                            <td>Mariano Gomez</td>
-                            <td>14444444-4</td>
-                            <td>718293</td>
-                            <td>27/Nov/2020</td>
-                            <td>m.gomez@bearings.cl</td>
-                            <td>Maquinaria Pesada</td>
-                            <td>Vendedor</td>
-                        </tr>
-                        <tr>
-                            <td>Mariano Gomez</td>
-                            <td>14444444-4</td>
-                            <td>718293</td>
-                            <td>27/Nov/2020</td>
-                            <td>m.gomez@bearings.cl</td>
-                            <td>Maquinaria Pesada</td>
-                            <td>Vendedor</td>
-                        </tr>
-                        <tr>
-                            <td>Mariano Gomez</td>
-                            <td>14444444-4</td>
-                            <td>718293</td>
-                            <td>27/Nov/2020</td>
-                            <td>m.gomez@bearings.cl</td>
-                            <td>Maquinaria Pesada</td>
-                            <td>Vendedor</td>
-                        </tr>
-                        <tr>
-                            <td>Mariano Gomez</td>
-                            <td>14444444-4</td>
-                            <td>718293</td>
-                            <td>27/Nov/2020</td>
-                            <td>m.gomez@bearings.cl</td>
-                            <td>Maquinaria Pesada</td>
-                            <td>Vendedor</td>
-                        </tr>
-                        <tr>
-                            <td>Mariano Gomez</td>
-                            <td>14444444-4</td>
-                            <td>718293</td>
-                            <td>27/Nov/2020</td>
-                            <td>m.gomez@bearings.cl</td>
-                            <td>Maquinaria Pesada</td>
-                            <td>Vendedor</td>
-                        </tr>
+                        </tr>                        
                     </tbody>
                 </table>
             </div>

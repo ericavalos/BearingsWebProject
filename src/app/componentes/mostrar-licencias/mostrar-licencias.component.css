@@ -1,0 +1,22 @@
+
+.tableFixHeadFutura{
+    overflow-y: auto;
+    height: 8rem;
+}
+
+.tableFixHeadFutura thead th {
+    position: sticky;
+    background-color: whitesmoke;
+    top: 0; 
+}
+
+.tableFixHead          { 
+    overflow-y: auto;
+    height: 16rem;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    background-color: whitesmoke;
+    top: 0; 
+}

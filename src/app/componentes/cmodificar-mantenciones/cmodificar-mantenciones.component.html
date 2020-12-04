@@ -1,5 +1,5 @@
 <app-sidebar>
-    <div class="card mt-5 ml-3 mr-3 col-xl interior">
+    <div class="card mt-5 ml-3 mr-3 col-xl">
         <h5 class="card-header">Modificar mantención</h5>
         <div class="card border-secondary mb-3 mr-2 ml-2">
             <div class="tableFixHeadFutura table-responsive">
@@ -67,7 +67,7 @@
                     <label for="firstName">ID del registro a modificar:</label>
                 </div>
                 <div class="col-md-3 mb-3">
-                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required> 
+                    <input class="form-control" type="number" value="" min="1" max="999" id="example-number-input" pattern="\d+">
                 </div>
                 <div class="col-md-6 mb-3">
                     <a href="modificar-mantenciones" class="btn btn-primary btn-dark" onclick="this.blur();">Modificar</a> 

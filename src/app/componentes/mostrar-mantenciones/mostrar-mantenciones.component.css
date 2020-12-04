@@ -28,11 +28,6 @@ body {
     height: 55px;
 }
 
-.topleft{
-    position: absolute;
-    top: 30px;
-    width: absolute;
-}
 
 .tableFixHeadFutura{
     overflow-y: auto;
@@ -41,6 +36,7 @@ body {
 
 .tableFixHeadFutura thead th {
     position: sticky;
+    background-color: whitesmoke;
     top: 0; 
 }
 
@@ -51,6 +47,7 @@ body {
 
 .tableFixHead thead th {
     position: sticky;
+    background-color: whitesmoke;
     top: 0; 
 }
 

@@ -1,5 +1,5 @@
 <app-sidebar>
-    <div class="card mt-5 ml-3 mr-3 col-xl interior topleft">
+    <div class="card mt-5 ml-3 mr-3 col-xl">
         <h5 class="card-header">Agregar Equipos</h5>
         <div class="card-body">
             <div class="container col-xl">
@@ -10,7 +10,7 @@
                                 <label for="firstName">ID equipo:</label>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" id="ID-Licencias" placeholder="" value="" required>
+                                <input class="form-control" type="number" value="" min="1" max="999" id="example-number-input" pattern="\d+">
                                 <div class="invalid-feedback">
                                     Se requiere un nombre válido.
                                 </div>
@@ -24,7 +24,7 @@
                                 <label for="firstName">Marca:</label>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" id="marca" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="marca" placeholder="" value="" required maxlength="30">
                                 <div class="col-md-3 mb-3"></div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                                 <label for="firstName">Modelo:</label>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" id="modelo" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="modelo" placeholder="" value="" required maxlength="30">
                                 <div class="col-md-3 mb-3"></div>  
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                                 <label for="firstName">Valor:</label>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" id="valor" placeholder="" value="" required>
+                                <input class="form-control" type="number" value="" min="1" max="9999" id="example-number-input" pattern="\d+">
                                 <div class="col-md-3 mb-3"></div>  
                             </div>
                         </div>
@@ -66,10 +66,10 @@
                         <div class="row">
                             <div class="col-md-3 mb-3">
                                 <label for="firstName">Año de compra:</label>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" id="fecha_compra" placeholder="" value="" required>
-                                    <div class="col-md-3 mb-3"></div>  
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input class="form-control" type="number" value="" min="1950" max="3000" id="example-number-input" pattern="\d+">
+                                <div class="col-md-3 mb-3"></div>  
                             </div>
                         </div>
                     </div> 
@@ -77,10 +77,10 @@
                         <div class="row">
                             <div class="col-md-3 mb-3">
                                 <label for="firstName">Periodicidad:</label>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" id="periodicidad" placeholder="" value="" required>
-                                    <div class="col-md-3 mb-3"></div>  
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input class="form-control" type="number" value="" min="1" max="9999" id="example-number-input" pattern="\d+">
+                                <div class="col-md-3 mb-3"></div>  
                             </div>
                         </div>
                     </div> 

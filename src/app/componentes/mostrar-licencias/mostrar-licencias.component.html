@@ -1,5 +1,5 @@
 <app-sidebar>
-    <div class="card mt-5 ml-3 mr-3 col-xl interior topleft">
+    <div class="card mt-5 ml-3 mr-3 col-xl">
     <h5 class="card-header">Mostrar Licencias</h5>
     <div class="card-body">
         <div class="container col-xl">
@@ -11,7 +11,7 @@
                             <label for="firstName">Nombre:</label>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <input type="text" class="form-control" id="nombre" placeholder="" value="" required>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required maxlength="10">
                             <div class="invalid-feedback">
                                 Se requiere un nombre válido.
                             </div>
@@ -25,7 +25,7 @@
                             <label for="firstName">Compra despues de:</label>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                            <input type="date" class="form-control" id="Compra_despues" placeholder="" value="" requiredvalue="01-01-1999">
                             <div class="col-md-3 mb-3"></div>
                         </div>
                     </div>
@@ -41,11 +41,10 @@
                         <label for="firstName">Serial:</label>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <select class="form-control">
-                                <option>-Seleccionar-</option>
-                                <option>Preventiva</option>
-                                <option>Correctiva</option>
-                            </select>
+                            <input class="form-control" type="number" value="" min="1" max="999" id="example-number-input" pattern="\d+">
+                                <div class="invalid-feedback">
+                                    Serial no valido
+                                </div>
                             <div class="col-md-3 mb-3"></div>
                         </div>
                     </div>
@@ -56,7 +55,7 @@
                             <label for="firstName">Compra antes de:</label>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                            <input type="date" class="form-control" id="fecha_antes" placeholder="" value="" requiredvalue="01-01-1999">
                             <div class="col-md-3 mb-3"></div>      
                         </div>
                     </div>
